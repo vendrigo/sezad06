@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("img:even").slideToggle("slow");
+			})
+		})
+	</script>
+</head>
+<body>
+	<button>Click me</button>
+	<div>
+		<img style="width: 100px;height: 100px" src="anim1.jpg"><br>
+		<img style="width: 100px;height: 100px" src="anim2.jpg"><br>
+		<img style="width: 100px;height: 100px" src="anim3.jpg"><br>
+		<img style="width: 100px;height: 100px" src="anim4.jpg"><br>
+		<img style="width: 100px;height: 100px" src="anime.jpg"><br>
+		<img style="width: 100px;height: 100px" src="anim5.jpg"><br>
+	</div>
+</body>
+</html>
